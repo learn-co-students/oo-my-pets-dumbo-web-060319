@@ -1,7 +1,6 @@
-require_relative 'spec_helper.rb'
+require_relative "spec_helper.rb"
 
 describe Cat do
-
   let(:cat) { Cat.new("crookshanks") }
 
   it "can initialize a cat" do
@@ -24,5 +23,4 @@ describe Cat do
     cat.mood = "playful"
     expect(cat.mood).to eq("playful")
   end
-
 end
